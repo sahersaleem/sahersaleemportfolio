@@ -1,6 +1,24 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Roboto , Poppins } from 'next/font/google'
+import Navbar from "./components/Navbar";
+import { ShootingStars } from "./components/ui/shooting-stars";
+import { StarsBackground } from "./components/ui/stars-background";
+import Footer from "./components/ui/Footer";
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+  variable:"--font-roboto-sans"
+})
+const poppins = Poppins({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+  variable:"--font-poppins-sans"
+
+})
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,9 +44,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${roboto.variable} ${poppins.variable} antialiased`}
+
       >
+        <ShootingStars/>
+        <StarsBackground/>
+        <Navbar/>
         {children}
+        
       </body>
     </html>
   );
