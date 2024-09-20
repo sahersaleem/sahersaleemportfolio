@@ -5,7 +5,6 @@ import { Roboto , Poppins } from 'next/font/google'
 import Navbar from "./components/Navbar";
 import { ShootingStars } from "./components/ui/shooting-stars";
 import { StarsBackground } from "./components/ui/stars-background";
-import Footer from "./components/ui/Footer";
 const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
@@ -20,16 +19,6 @@ const poppins = Poppins({
 
 })
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",

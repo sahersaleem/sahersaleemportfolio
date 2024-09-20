@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
 import { TextRevealCard } from "./ui/text-reveal-card";
-import about from "@/../../images/about.webp";
 const About = () => {
   return (
     <div className="w-full h-[100vh] xs:h-[auto] bg-[#21083e] flex justify-center items-center xs:flex-col lg:flex-row pt-28">
