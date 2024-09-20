@@ -46,12 +46,12 @@ const Footer = () => {
         </div>
 
     <div className="flex xs:flex-col gap-4 xs:order-1 sm:order-2">
-      <h1>Get in touch</h1>
+      <h1 className='text-white'>Get in touch</h1>
       <div className='flex sm:flex-row xs:flex-row xs:gap-7'>
-          <FaYoutube className="xs:text-[14px] md:text-[24px]"/>
-          <FaLinkedin className="xs:text-[14px] md:text-[24px]"/>
-          <FaTwitter className="xs:text-[14px] md:text-[24px]"/>
-          <FaDiscord className="xs:text-[14px] md:text-[24px]"/>
+          <FaYoutube className="xs:text-[14px] md:text-[24px] text-white"/>
+          <FaLinkedin className="xs:text-[14px] md:text-[24px] text-white"/>
+          <FaTwitter className="xs:text-[14px] md:text-[24px] text-white"/>
+          <FaDiscord className="xs:text-[14px] md:text-[24px] text-white"/>
           </div>
  </div>
 

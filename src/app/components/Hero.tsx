@@ -36,10 +36,10 @@ const Hero = () => {
         
 
         <div className="mb-5 flex justify-center items-center flex-col xl:mt-40  ">
-          <TypewriterEffectSmooth words={words2} className="font-mono  -ml-200" />
+          <TypewriterEffectSmooth words={words2} className="font-mono text-white  -ml-200" />
           {/* <TypewriterEffectSmooth words={words3} /> */}
           {/* <TypewriterEffectSmooth words={words} /> */}
-         <TextGenerateEffect words={para} className="font-mono font-thin  xs:text-[16px]sm:text-lg md:text-xl lg:text-2xl -mt-9 text-wrap xs:text-center text-justify"/>
+         <TextGenerateEffect words={para} className="font-mono text-white font-thin  xs:text-[16px]sm:text-lg md:text-xl lg:text-2xl -mt-9 text-wrap xs:text-center text-justify"/>
           <div className="flex gap-12  mt-10 ml-0">
           <button className="p-[3px] relative">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />

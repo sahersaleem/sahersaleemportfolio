@@ -14,49 +14,55 @@ const Skills = () => {
           aria-label="Loading..."
           value={100}
           color="secondary"
-          className="lg:max-w-md xs:w-[200px] sm:w-[300px]"
+          className="lg:max-w-md xs:w-[200px] sm:w-[300px] text-white font-mono"
         />
         <Progress
         label="CSS"
           aria-label="Loading..."
           value={90}
           color="secondary"
-          className="lg:max-w-md xs:w-[200px] sm:w-[300px]"
+          className="lg:max-w-md xs:w-[200px] sm:w-[300px] text-white font-mono"
+
         />
         <Progress
         label="JAVASCRIPT"
           aria-label="Loading..."
           value={50}
           color="secondary"
-         className="lg:max-w-md xs:w-[200px] sm:w-[300px]"
+          className="lg:max-w-md xs:w-[200px] sm:w-[300px] text-white font-mono"
+
         />
         <Progress
         label="TYPESCRIPT"
           aria-label="Loading..."
           value={20}
           color="secondary"
-          className="lg:max-w-md xs:w-[200px] sm:w-[300px]"
+          className="lg:max-w-md xs:w-[200px] sm:w-[300px] text-white font-mono"
+
         />
         <Progress
         label="Reactjs"
           aria-label="Loading..."
           value={70}
           color="secondary"
-         className="lg:max-w-md xs:w-[200px] sm:w-[300px]"
+          className="lg:max-w-md xs:w-[200px] sm:w-[300px] text-white font-mono"
+
         />
         <Progress
         label="NextJS"
           aria-label="Loading..."
           value={100}
           color="secondary"
-       className="lg:max-w-md xs:w-[200px] sm:w-[300px]"
+          className="lg:max-w-md xs:w-[200px] sm:w-[300px] text-white font-mono"
+
         />
         <Progress
         label="TailwindCss"
           aria-label="Loading..."
           value={90}
           color="secondary"
-          className="lg:max-w-md xs:w-[200px] sm:w-[300px]"
+          className="lg:max-w-md xs:w-[200px] sm:w-[300px] text-white font-mono"
+
         />
       </div>
       </div>

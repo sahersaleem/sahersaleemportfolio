@@ -12,7 +12,7 @@ const config: Config = {
   ],
   darkMode:['class'],
   theme: {
-	
+     
   	extend: {
 		screens: {
 			'xs': '300px',  // Add this line for 300px breakpoint

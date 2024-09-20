@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="sm:w-[500px] xs:w-[320px] h-auto xs:order-1 lg:order-2 flex justify-center items-center flex-col">
         <h1 className="text-6xl  text-center text-purple-300 font-sans mb-4 background">About me</h1>
-        <p className="xs:text[0.8rem] sm:text-[1.4rem] font-mono  text-wrap text-justify ">
+        <p className="xs:text[0.8rem] sm:text-[1.4rem] font-mono  text-wrap text-justify text-white">
           Hey there! I’m Saher Saleem, an ambitious 18-year-old web developer
           from Karachi, Pakistan. After completing my studies in biology, I
           discovered my passion for technology and haven’t looked back. With

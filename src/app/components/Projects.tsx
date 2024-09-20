@@ -13,7 +13,7 @@ const Card = ({text, imageUrl , href}:{text:string,imageUrl:any,href:string}) =>
     <BackgroundGradient>
     <div className="  md:w-[350px] md:h-[400px]  bg-[#4d0170] flex items-center justify-center flex-col p-6 rounded-2xl gap-4 z-10  flex-shrink">
       <div className="flex justify-center items-center flex-col gap-5 ">
-        <h2 className="font-mono text-xl font-bold">
+        <h2 className="font-mono text-xl font-bold text-white">
           {text}
         </h2>
         <Image
