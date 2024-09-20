@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import css from "@/../../images/css.png";
 import { BackgroundGradient } from "./ui/background-gradient";
 import student from "@/../../images/student.png";
 import countdown from "@/../../images/countdown.jpg";

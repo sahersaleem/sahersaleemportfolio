@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Contact from '../components/Contact'
 import Footer from '../components/ui/Footer'
 const page = () => {
